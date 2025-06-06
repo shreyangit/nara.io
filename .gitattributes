@@ -1,0 +1,27 @@
+# Treat all text files as LF
+* text=auto
+
+# Force LF line endings for common Unity file types
+*.cs text eol=lf
+*.meta text eol=lf
+*.unity text eol=lf
+*.asset text eol=lf
+*.inputactions text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+
+# Treat binary files properly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.fbx binary
+*.dll binary
+*.exe binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+
+# Optional: Windows-specific configs with CRLF
+*.sln text eol=crlf
+*.csproj text eol=crlf
