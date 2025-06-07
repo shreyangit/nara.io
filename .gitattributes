@@ -25,3 +25,4 @@
 # Optional: Windows-specific configs with CRLF
 *.sln text eol=crlf
 *.csproj text eol=crlf
+*.dwlt text eol=lf
